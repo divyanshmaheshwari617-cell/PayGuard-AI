@@ -1411,7 +1411,7 @@ def get_gemini_config():
         or os.getenv(
             "GEMINI_MODEL"
         )
-        or "gemini-2.5-flash"
+        or "gemini-3.6-flash"
     )
 
     return api_key, model

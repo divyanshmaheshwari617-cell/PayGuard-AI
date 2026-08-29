@@ -3314,7 +3314,7 @@ def get_gemini_config():
         pass
 
     api_key = api_key or os.getenv("GEMINI_API_KEY")
-    model = model or os.getenv("GEMINI_MODEL") or "gemini-2.5-flash"
+    model = model or os.getenv("GEMINI_MODEL") or "gemini-3.6-flash"
     return api_key, model
 
 
