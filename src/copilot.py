@@ -101,7 +101,7 @@ GEMINI_API_KEY = _get_secret("GEMINI_API_KEY")
 
 GEMINI_MODEL = _get_secret(
     "GEMINI_MODEL",
-    "gemini-2.5-flash",
+    "gemini-3.6-flash",
 )
 
 
@@ -116,7 +116,7 @@ if not GEMINI_API_KEY:
         f"{SECRETS_FILE}\n\n"
         "Example:\n"
         'GEMINI_API_KEY = "your-api-key"\n'
-        'GEMINI_MODEL = "gemini-2.5-flash"\n'
+        'GEMINI_MODEL = "gemini-3.6-flash"\n'
     )
 
 
