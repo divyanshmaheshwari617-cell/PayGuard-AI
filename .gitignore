@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Secrets - NEVER upload
+.streamlit/secrets.toml
+.env
+.env.*
+
+# Databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Raw/private datasets
+data/raw/
+
+# Logs
+*.log
+logs/
+
+# Jupyter temporary files
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Backups / broken files
+*_backup.py
+*_broken*.py
+app_old*.py
+app_before*.py
+app_broken*.py
+
+# Credentials
+*.pem
+*.key
+credentials.json
+models/*.cbm
+*~
