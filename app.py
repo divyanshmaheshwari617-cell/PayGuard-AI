@@ -2029,22 +2029,19 @@ def analyze_current_screen_advanced(
 ):
 
     try:
+        if pyautogui is not None:
+            screenshot = pyautogui.screenshot()
 
-        screenshot = (
-            pyautogui
-            .screenshot()
-        )
+            buffer = io.BytesIO()
 
-        buffer = io.BytesIO()
-
-        screenshot.save(
+            screenshot.save(
             buffer,
             format="PNG",
         )
 
-        image_bytes = (
-            buffer.getvalue()
-        )
+            image_bytes = buffer.getvalue()
+        else:
+            image_bytes = None
 
     except Exception as exc:
 
