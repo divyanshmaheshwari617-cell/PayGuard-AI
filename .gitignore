@@ -48,3 +48,5 @@ app_broken*.py
 credentials.json
 models/*.cbm
 *~
+*.db-shm
+*.db-wal
