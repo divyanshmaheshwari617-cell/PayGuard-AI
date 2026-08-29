@@ -8,7 +8,10 @@ from pathlib import Path
 import numpy as np
 import pandas as pd
 import streamlit as st
-import pyautogui
+try:
+    import pyautogui
+except ImportError:
+    pyautogui = None
 
 # ------------------------------------------------------------
 # Gemini integration
