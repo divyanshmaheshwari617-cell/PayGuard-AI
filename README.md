@@ -7,7 +7,11 @@ PayGuard AI is an intelligent payment-risk platform designed to detect suspiciou
 Built for the **Razorpay AI Buildathon 2026 — AI Risk Manager Track**.
 
 ---
+## 🖥️ PayGuard AI Dashboard
 
+![PayGuard AI Dashboard](docs/screenshots/01-dashboard.png)
+
+PayGuard AI provides a unified risk-operations dashboard for transaction scoring, fraud investigation, monitoring, network analysis, and AI-assisted decision support.
 ## 🚀 What PayGuard AI Does
 
 Traditional fraud models often stop at predicting whether a transaction is fraudulent.
