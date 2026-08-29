@@ -1,0 +1,12 @@
+streamlit
+pandas
+numpy
+scikit-learn
+catboost
+joblib
+plotly
+google-generativeai
+fastapi
+uvicorn
+requests
+networkx
