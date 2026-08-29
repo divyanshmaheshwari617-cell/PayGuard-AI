@@ -273,7 +273,14 @@ Configure your Gemini credentials locally.
 The `.streamlit/secrets.toml` file is excluded through `.gitignore`.
 
 ---
+## 📦 Model Setup
 
+The trained CatBoost model file is not stored directly in this GitHub repository because it is larger than GitHub's normal per-file upload limit.
+
+Expected local model path:
+
+```text
+models/payguard_fraud_catboost.cbm
 ## ▶️ Run PayGuard
 
 Start the Streamlit dashboard:
